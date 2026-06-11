@@ -19,16 +19,19 @@ A personal QA automation portfolio project covering API testing with multiple fr
 ```
 playwright-project/
 ├── api-tests/
-│   ├── mocha-chai/         # API Testing with Mocha, Chai, Axios
+│   ├── mocha-chai/
 │   │   ├── api.test.js
 │   │   ├── contoh.test.js
 │   │   └── login.test.js
-│   └── playwright/         # API Testing with Playwright Native
-│       └── login.test.ts
-├── ui-tests/               # UI Testing (coming soon)
-├── playwright.config.ts
+│   └── playwright/
+│       └── login.test.ts 
+├── ui-test (coming soon)/
+│   └── .gitkeep
+├── .gitignore
 ├── package.json
-└── .gitignore
+├── playwright.config.ts 
+├── README.md
+└── tsconfig.json
 ```
 
 ---
